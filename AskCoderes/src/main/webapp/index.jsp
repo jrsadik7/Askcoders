@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -48,12 +49,15 @@
 		<div class="col-md-3">
 			<div class="panel panel-login">
 				<div class="panel-heading">
+					<img alt="color pencils"
+						src="${pageContext.request.contextPath}/resources/images/colorpencils.jpg">
+					<hr>
 					<div class="row">
 						<div class="col-xs-6">
-							<a href="#" id="login-form-link">Login</a>
+							<a href="#" class="a-btn" id="login-form-link">Login</a>
 						</div>
 						<div class="col-xs-6">
-							<a href="#" id="register-form-link">Register</a>
+							<a href="#" class="a-btn" id="register-form-link">Register</a>
 						</div>
 					</div>
 					<hr>
@@ -61,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<%-- <h1>${param.title}</h1> --%>
 
 	<%-- <jsp:include page="/WEB-INF/pages/${param.content}.jsp"/> --%>

@@ -28,7 +28,7 @@ body {
 }
 .panel-login>.panel-heading hr{
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	clear: both;
 	border: 0;
 	height: 1px;
@@ -99,11 +99,21 @@ body {
 }
 .carousel{
     background: #2f4357;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
 }
 .bs-example{
 	margin: 20px;
+}
+.panel-login img{
+	width:280px;
+	 margin-bottom:19px;
+}
+.a-btn {
+	border: 5px solid #333333;
+    padding: 3px 1em;
+    background-color: paleturquoise;
+    border-radius: 10px;	
 }
